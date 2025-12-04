@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and Scope</title>
+</head>
+<body>
+    <h1>Variables and Scope</h1>
+
+    <h3>Task-1</h3>
+    <p>Create a program using var, let, and const. Try redeclaring each and observe the errors.</p>
+
+    <hr>
+    <h3>Task-2</h3>
+    <p>Write a function containing a variable. Try accessing it outside the function.</p>
+
+    <hr>
+    <h3>Task-3</h3>
+    <p>Use an if block and create two variables using let and const. Print them inside and outside the block.</p>
+
+    <h3>Task-5</h3>
+    <p>Declare a global variable, a function variable, and a block variable. Print them to understand scope differences.</p>
+
+    <script>
+
+        // Task - 1
+
+
+        // var a = 10;
+        // var a = 20;         // Redeclaring is allowed 
+        // console.log(a);
+        
+        
+        
+        // let b = 10;
+        // let b = 20;         // Redeclaring is not allowed 
+        // console.log(b);
+        
+        // const c = 10;
+        // const c = 20;       // Redeclaring is allowed 
+        // console.log(c);
+
+        // Task - 2
+
+        // function Kavy() {
+               // var name1 = "Kavy";
+               // let name2 = "Het";
+               // const name3 = "Hiya";
+
+        // }
+
+        // console.log(name1);          // Error
+        // console.log(name2);          // Error
+        // console.log(name3);          // Error
+
+        // Task - 3
+
+        // {
+        //     let name = "Kavy";
+        //     const num = 13;
+        // }
+        
+        // console.log(name);            // Don't Show
+        // console.log(num);             // Error
+
+        // Task - 5
+
+        // var num1 = 10;                //global variable
+        // let num2 = 20;                //block  variable
+        
+        // console.log(num1);
+        // console.log(num2);
+
+        // {
+                 // var num3 = 15;            //global  variable
+                 // let num4 = 20;            //block  variable
+        // }
+        //  console.log(num3);
+        //  console.log(num4);            // Error
+         
+        
+        
+    </script>
+</body>
+</html>

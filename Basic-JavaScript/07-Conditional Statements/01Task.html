@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+</head>
+
+<body>
+    <script>
+
+
+        //1. Number Sign Checker
+        // Write a program that checks whether a number is positive, negative, or zero.
+
+
+        let num = 0;
+
+        if (num > 0) {
+            console.log("Number is Positive");
+
+        } else if (num < 0) {
+            console.log("Number is Negative");
+
+        } else {
+            console.log("Number is Zero");
+
+        }
+
+
+
+        //2. Even or Odd
+        // Take a number as input and check whether it is even or odd.
+
+
+        let num2 = 11;
+
+        if (num2 % 2 == 0) {
+            console.log("Number Is Even");
+
+        } else {
+            console.log("Number Is Odd");
+
+        }
+
+
+        // 3. Voting Eligibility
+        //Ask the user for their age and print whether they are eligible to vote (18 or above) or not.
+
+        let age = 18;
+        if (age > 18) {
+            console.log("You can Vote");
+
+        } else if (age < 18) {
+            console.log("You can not Vote");
+
+        } else {
+            console.log("First Make your Voter Id");
+
+        }
+
+        //4. Largest of Two Numbers
+        //Compare two numbers and print the greater number.
+
+        let num3 = 10;
+        let num4 = 20;
+
+        if (num3 > num4) {
+            console.log("num3 Is greater Number");
+
+        } else {
+            console.log("num4 Is greater Number");
+
+        }
+
+
+
+        //5. Grade Calculator
+        //Take marks as input and print grades:
+
+        //90–100 → A
+        //75–89 → B
+        //50–74 → C
+        //Below 50 → Fail
+
+        let marks = 50;
+
+        if (marks >= 90) {
+            console.log("Your Grade is A");
+
+        } else if (marks >= 75) {
+            console.log("Your Grade is B");
+
+        } else if (marks >= 50) {
+            console.log("Your Grade is C");
+
+        } else {
+            console.log("Your are Fail");
+
+        }
+
+        // 6. Leap Year Checker
+        // Check whether a given year is a leap year or not.
+
+        let year = 2028;
+
+        if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+            console.log("Year is Leap Year");
+
+        } else {
+            console.log("Year is not Leap Year");
+
+        }
+
+        //7. Simple Calculator (switch case)
+        // Take two numbers and an operator (+, -, *, /).
+        // Use switch-case to perform the calculation.
+
+        let num5 = 20;
+        let num6 = 30;
+        let operator = "+";
+
+        switch (operator) {
+            case "+":
+                console.log(num5 + num6);
+
+                break;
+            case "-":
+                console.log(num5 - num6);
+
+                break;
+            case "*":
+                console.log(num5 * num6);
+
+                break;
+            case "/":
+                console.log(num5 / num6);
+
+                break;
+
+            default:
+                console.log("Choese Valid operator");
+
+                break;
+        }
+
+
+        // 8. Character Type Checker
+        // Take a character input and check if it is:
+
+        // A vowel,
+        // A consonant, or
+        // Not a letter.
+
+        // let character = prompt("Enter character");
+        // if (character == "a" || character == "e" || character == "i" || character == "o" || character == "u") {
+        //     console.log("character is a vowel");
+
+        // } else {
+        //     console.log("character is a consonant");
+
+        // }
+
+        //9. Discount on Shopping
+        // If shopping amount is:
+
+        // More than 500 → 20% discount
+        // 200–500 → 10% discount
+        // Below 200 → No discount
+        // Print final price after discount.
+
+
+        let prize = prompt("Enter The Prize");
+
+        if (prize >= 500) {
+            console.log("Get 20% discount");
+
+        } else if (prize >= 200) {
+            console.log("Get 10% discount");
+
+        } else {
+
+            console.log("No discount");
+        }
+
+        //10. Traffic Light Simulation
+        // Take input as "red", "yellow", or "green".
+        // Display appropriate message:
+
+        // Red → Stop
+        // Yellow → Get Ready
+        // Green → Go
+
+        let light = "red";
+    
+        if (light == "red") {
+            console.log("Stop");
+            
+        } else if(light == "Yellow"){
+            console.log("Get Ready");
+            
+        }else if (light == "Green") {
+            console.log("Go");
+            
+        }else{
+            console.log("Signal is Off");
+            
+        }
+    </script>
+</body>
+
+</html>

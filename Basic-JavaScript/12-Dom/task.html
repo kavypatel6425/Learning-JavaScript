@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="number" name="input1" id="input1"><br><br>
+        <input type="number" name="input1" id="input2"><br><br>
+        <button id="+" onclick="pluse()">+</button>
+        <button id="-" onclick="mineus()">-</button>
+        <button id="*" onclick="maltiply()">*</button>
+        <button id="/" onclick="divede()">/</button><br><br>
+        <input type="number" name="result" id="result">
+    </div>
+
+
+    <script>
+        
+        function pluse() {
+            let num = parseFloat(document.getElementById("input1").value);
+            let num1 = parseFloat(document.getElementById("input2").value);
+            console.log(num);
+            console.log(num1);
+            console.log(num+num1);
+            document.getElementById("result").value = num+num1;
+        }
+        
+        function mineus() {
+            let num = parseFloat(document.getElementById("input1").value);
+            let num1 = parseFloat(document.getElementById("input2").value);
+            console.log(num);
+            console.log(num1);
+            console.log(num-num1);
+            document.getElementById("result").value = num-num1;
+        }
+        function maltiply() {
+            let num = parseFloat(document.getElementById("input1").value);
+            let num1 = parseFloat(document.getElementById("input2").value);
+            console.log(num);
+            console.log(num1);
+            console.log(num-num1);
+            document.getElementById("result").value = num-num1;
+        }
+        function divede() {
+            let num = parseFloat(document.getElementById("input1").value);
+            let num1 = parseFloat(document.getElementById("input2").value);
+            console.log(num);
+            console.log(num1);
+            console.log(num-num1);
+            document.getElementById("result").value = num-num1;
+        }
+    </script>
+</body>
+
+</html>

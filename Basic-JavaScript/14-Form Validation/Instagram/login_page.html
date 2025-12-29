@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram Login</title>
+
+    <link rel="stylesheet" href="./CSS/log_in.css">
+</head>
+
+<body>
+
+    <div>
+        <div>
+            <div class="login-box">
+                <div>
+                    <h1>Instagram</h1>
+                </div>
+                <div>
+                    <input type="text" placeholder="Phone number, username, or email" id="username" name="uname"
+                        onblur="Uname()">
+                    <br> <span id="error1" class="error1"></span>
+                    <br><input type="password" placeholder="Password" id="password" name="upassword"
+                        onblur="Upassword()">
+                    <br><span id="error2"></span>
+                </div>
+
+                <div>
+                    <br><button>Log In</button>
+                </div>
+
+                <div class="or">OR</div>
+
+                <div class="Facebook ">
+                    <div class=" d_flex aic">
+                        <img src="./img/Facebook_logo.png" alt="">
+                        <p><a href="./FaceBook.html">Log in With Facebook</a></p>
+                    </div>
+                </div>
+
+                <div class="forgot"><a href="./forgot.html">Forgot password?</a></div>
+            </div>
+        </div>
+        <div class="singIn">
+            <div>
+                <span>Don't have an account? <a href="./sing_up.html">Sing up</a></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Js/login.js">
+       
+    </script>
+
+</body>
+
+</html>

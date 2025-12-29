@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./CSS/sing.css">
+</head>
+
+<body>
+    <div class="Sign">
+        <div>
+            <input type="text" id="Email" onblur="email()" placeholder="Mobile Number or Email"><br>
+            <span id="error1"></span><br>
+            <input type="text" id="FullName" onblur="fullname()" placeholder="Full Name"><br>
+            <span id="error2"></span><br>
+            <input type="text" id="Username" onblur="username()" placeholder="Username"><br>
+            <span id="error3"></span><br>
+            <input type="password" id="Password" onblur="password()" placeholder="Password"><br>
+            <span id="error4"></span><br>
+        </div>
+
+        <div>
+            <button>Sign Up</button>
+        </div>
+
+        <div class="login aic tac">
+            <span>Have an account? <a href="./login_page.html">Log in</a></span>
+        </div>
+    </div>
+
+    <script src="./Js/sing.js"></script>
+</body>
+
+</html>

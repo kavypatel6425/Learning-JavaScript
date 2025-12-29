@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="./CSS/facebook.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <h1>facebook</h1>
+        <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+
+    <div class="right">
+        <form class="login-box">
+            <input type="text" id="Email" onblur="email()" placeholder="Email or phone number" required><br>
+            <span id="error1"></span>
+            <input type="password" id="Password" onblur="password()" placeholder="Password" required><br>
+            <span id="error2"></span><br>
+
+            <br><button type="submit">Log In</button>
+
+            <a href="#" class="forgot">Forgotten password?</a>
+
+            <hr>
+
+            <button class="create">Create New Account</button>
+        </form>
+    </div>
+</div>
+
+<script src="./Js/facebook.js"></script>
+
+</body>
+</html>
